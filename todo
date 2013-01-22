@@ -4,11 +4,11 @@ Features:
   - Limits on done items shown @done
   - Limits on pending items shown @done
   - Include chatter @maybe @done
+  - Comment notifications
 
   Notifications:
   - Change icon when there are red flagged items @maybe
   - New task notification @maybe @background
-  - New chatter notification @maybe @background
 
   Task Management:
   - Mark done via menu
@@ -19,7 +19,7 @@ Polish:
 - Handle session issues @done
 - Documentation @done
 - Cleanup JS @ongoing
-- Update jQuery to 1.4.2 (or newer)
+- Update jQuery to 1.4.2 (or newer) @done
 
 External:
 - Report Chrome http basic auth issue with browser actions and background pages
