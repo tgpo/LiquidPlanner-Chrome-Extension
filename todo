@@ -4,11 +4,13 @@ Features:
   - Limits on done items shown @done
   - Limits on pending items shown @done
   - Include chatter @maybe @done
-  - Comment notifications
+  - Comment notifications (Basic)
 
   Notifications:
   - Change icon when there are red flagged items @maybe
   - New task notification @maybe @background
+  - Better shown comment tracking
+  - Expand and refine comment notifications
 
   Task Management:
   - Mark done via menu
