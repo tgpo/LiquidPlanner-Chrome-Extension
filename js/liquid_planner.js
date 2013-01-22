@@ -83,10 +83,11 @@ LiquidPlanner.task       = resource(':host/:api_path/workspaces/:space_id/tasks/
 LiquidPlanner.workspaces = resource(':host/:api_path/workspaces/');
 LiquidPlanner.workspace  = resource(':host/:api_path/workspaces/:space_id');
 LiquidPlanner.members    = resource(':host/:api_path/workspaces/:space_id/members');
-LiquidPlanner.chatter    = resource(':host/:api_path/workspaces/:space_id/chatter');
+LiquidPlanner.chatter    = resource(':host/:api_path/workspaces/:space_id/comment_stream?for_me=true');
 
 // Add a url we will use later to show tasks in LiquidPlanner
 LiquidPlanner.showTaskUrl= ':host/space/:space_id/collaborate/show/:task_id';
+
 
 $(document)
 	.ajaxSend(function(ev, xhr){ 
