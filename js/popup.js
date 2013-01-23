@@ -68,7 +68,7 @@ function showComments(comments) {
     }
     
     chatter.append(html);
-  
+	
 
   }
 }
